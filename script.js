@@ -14,3 +14,7 @@ function nextSlide() {
 function prevSlide() {
   showSlide(current - 1);
 }
+
+function goHome() {
+  showSlide(0);
+}

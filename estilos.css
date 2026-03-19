@@ -18,6 +18,16 @@ body {
   display: flex;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
 .controls {
   position: fixed;
   bottom: 20px;
@@ -29,4 +39,6 @@ button {
   margin: 5px;
   font-size: 16px;
   cursor: pointer;
+  border-radius: 8px;
+  border: none;
 }
